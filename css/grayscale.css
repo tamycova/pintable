@@ -184,9 +184,12 @@
 }
 
 .projects-section .mapa{
-    padding: 2rem;
-    max-width: 100%;
+    width: 100%;
     height: auto;
+}
+
+.projects-section .divmapa{
+    max-width: 50%;
 }
 
 .projects-section .icon{
