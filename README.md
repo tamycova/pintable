@@ -1,1 +1,1 @@
-<magallanespintable.cl>
+www.magallanespintable.cl
