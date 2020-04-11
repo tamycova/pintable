@@ -19,22 +19,16 @@
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/grayscale.css?v=1.1.1" rel="stylesheet">
+  <link href="css/grayscale.css?v=2.1.1" rel="stylesheet">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163387852-1"></script>
 <script>
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-163387852-1']);
-  _gaq.push(['_trackPageview']);
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+  gtag('config', 'UA-163387852-1');
 </script>
 
 
@@ -104,7 +98,10 @@
                 <h4 class="text-white">Tamaño personal</h4>
                 <p class="mb-0 text-white-50">Texto motivador de por qué el tamaño personal es bacán. Hay que cambiar la foto igual.</p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
-                <a href="pdfs/1.jpg" download="1x1MagallanesPintable.jpg" class="btn-descarga" onClick="_gaq.push(['_trackEvent', 'downloads', 'click', '1x1']);">Descargar</a>              
+                <a href="pdfs/1.jpg" download="1x1MagallanesPintable.jpg" class="btn-descarga" onClick="gtag('event', 'download', {
+  'event_category' : 'click',
+  'event_label' : '1x1'
+});">Descargar</a>              
                 </div>
             </div>
           </div>
@@ -123,7 +120,10 @@
                 <h4 class="text-white">Tamaño grupo pequeño</h4>
                 <p class="mb-0 text-white-50">Texto motivador de por qué el tamaño 3x3 es bacán. Hay que cambiar la foto igual. </p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
-                <a href="pdfs/9.pdf" download="3x3MagallanesPintable.pdf" class="btn-descarga" onClick="_gaq.push(['_trackEvent', 'downloads', 'click', '3x3']);">Descargar</a>              
+                <a href="pdfs/9.pdf" download="3x3MagallanesPintable.pdf" class="btn-descarga" onClick="gtag('event', 'download', {
+  'event_category' : 'click',
+  'event_label' : '3x3'
+});">Descargar</a>              
                 </div>
             </div>
           </div>
@@ -142,7 +142,10 @@
                 <h4 class="text-white">Tamaño familia o niños</h4>
                 <p class="mb-0 text-white-50">Texto motivador de por qué el tamaño 4x4 es bacán. Hay que cambiar la foto igual.</p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
-                <a href="pdfs/16.pdf" download="4x4MagallanesPintable.pdf" class="btn-descarga" onClick="_gaq.push(['_trackEvent', 'downloads', 'click', '4x4']);">Descargar</a>
+                <a href="pdfs/16.pdf" download="4x4MagallanesPintable.pdf" class="btn-descarga" onClick="gtag('event', 'download', {
+  'event_category' : 'click',
+  'event_label' : '4x4'
+});">Descargar</a>
               </div>
             </div>
           </div>
