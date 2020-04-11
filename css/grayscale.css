@@ -251,6 +251,10 @@
   border: 0;
 }
 
+.signup-section h2 {
+  color: rgba(255, 255, 255, 1);
+}
+
 .contact-section {
   padding: 5rem 0 0;
 }
