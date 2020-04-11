@@ -176,7 +176,7 @@
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 2rem 0;
 }
 
 .projects-section .featured-text {
@@ -215,6 +215,20 @@
     border-width: .25rem;
     width: 30%;
   }
+}
+
+.photos-section {
+  padding: 2rem 0;
+  background: #f8f9fa;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  align: center;
+}
+
+.photos-section .row{
+    align-content: center;
 }
 
 .signup-section {
