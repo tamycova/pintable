@@ -93,7 +93,7 @@
 
 .masthead h1 {
   font-family: 'Varela Round';
-  font-size: 4.5rem;
+  font-size: 20px;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: rgba(255, 255, 255, 1);
@@ -185,7 +185,7 @@
 
 .projects-section .mapa{
     padding: 2rem;
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
 }
 
